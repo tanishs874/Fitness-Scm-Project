@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	width: 100%;
+	background-image: url(3.jpg);
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, url(1.jpg));
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}		
+
+
+ .content{
+ 	width: 1200px;
+ 	margin: auto;
+ 	color: white;
+ 	position: relative;
+ }
+ .content h1{
+ 	font-family: 'Times New Roman';
+ 	font-size: 50px;
+ 	padding-left: 20px;
+ 	margin-top: 9%;
+ 	letter-spacing: 2px;
+ }
+ 
+.content span{
+	font-size: 60px;
+
+}
+.form{
+	width: 250px;
+	height: 380px;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.7)50%, rgba(0, 0, 0, 0.7)50%);
+  position: absolute;
+  top: 150px;
+  left: 870px;
+  border-radius: 15px;
+  padding: 25px;
+}
+.form h2 {
+	width: 200px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #ffff;
+	font-size: 22px;
+	background-color: grey;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+}
+.form input{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border-bottom: 1px solid #ff7200;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: whitesmoke;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+.form input:focus{
+	outline: none;
+}
+::placeholder{
+	color: #ffff;
+	font-family: arial;
+}
+.btnn{
+	width: 240px;
+	height: 40px;
+	background: #ff7200;
+	border: none;
+	margin-top: 30px;
+	font-family: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #ffff;
+	transition: 0.4s ease;
+}
+.btnn hover{
+	background: whitesmoke;
+color: #ff7200;
+}
+.btnn a{
+	text-decoration: none;
+	color: #ffff;
+	font-weight: bold;
+}
+.form .link{
+	color: #ffff;
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 20px;
+	text-align: center;
+}
+.form .link a{
+	text-decoration: none;
+	color: #ff7200;
+}
+.liw{
+	color: #ffff;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.icon{
+	text-decoration: none;
+	color: grey;
+
+	padding-left: 38px;
+	padding-top: 5px;
+}
